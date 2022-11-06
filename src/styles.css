@@ -25,4 +25,6 @@ table {
     -ms-flow-into: inherit;
     font-size: larger;
   }
-  
+  negrito{
+    font-weight:bold;
+  }
