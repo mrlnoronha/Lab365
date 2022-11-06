@@ -19,16 +19,32 @@ do {
 while (contador < 20);
 console.log("valor contador..."+contador);
 
-do {
-    pergunta = window.prompt("Deseja continuar [s/n]")
+let controle = 0;
 
-} while(pergunta !== "n");
+do { 
 
-do {
-    pergunta = window.prompt("Escreva qualquer coisa");
-    escrita1 = document.getElementById("escrita1");
-    escrita1.innerHTML = pergunta;
-} while(pergunta !== "Qualquer coisa");
+  console.log(“Executou...contador.”+controle)
+
+  controle += 1
+
+} while (controle <= 10)
+
+function pergunta(){
+
+    do {
+        pergunta = window.prompt("Deseja continuar [s/n]")
+    
+    } while(pergunta !== "n");
+    
+    do {
+        pergunta = window.prompt("Escreva qualquer coisa");
+        escrita1 = document.getElementById("escrita1");
+        escrita1.innerHTML = pergunta;
+    } while(pergunta !== "Qualquer coisa");
+  
+
+}
+
 
 
 

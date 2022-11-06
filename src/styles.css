@@ -1,7 +1,16 @@
+body{
+  background-color: aquamarine;
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 70%;
+  }
+
+  h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color:darkblue;
   }
   
   td, th {
@@ -27,4 +36,17 @@ table {
   }
   negrito{
     font-weight:bold;
+  }
+  #teste{
+    padding-top: 10px;
+    color: black;
+    background-color: aquamarine;
+
+  }
+  .bloco1{
+    background-color: aliceblue;
+    border: 1px;
+    border-width: 1px;
+    border-style:dashed;
+    width: 500px;
   }
