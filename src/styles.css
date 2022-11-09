@@ -50,3 +50,16 @@ table {
     border-style:dashed;
     width: 500px;
   }
+  .observacao{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    border: 5px;
+    border-style: dashed;
+  }
+  @keyframes example {
+    from {background-color: red;width: 300px;height: 300px;}
+    to {background-color: yellow;width: 200px;height: 200px;}
+  }
