@@ -11,3 +11,13 @@ function tela(){
     tela1 = window.alert("fim");   
 }
 
+let elemento_tela_html;
+let contador = 0;
+elemento_tela_html = document.getElementById("testeDOM");
+while(contador<=1000){
+    elemento_tela_html.innerHTML = contador;
+    contador++;
+    console.log(contador+"....número")
+}
+
+
