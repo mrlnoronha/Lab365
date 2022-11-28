@@ -16,17 +16,19 @@
 
     <div class="caixa">
         <h1>Calculadora</h1>
-        <input onclick="geral(1)" id="numero_1" type="button" value="1">
-        <input onclick="geral(2)" id="numero_2" type="button" value="2">
-        <input onclick="geral(3)" id="numero_3" type="button" value="3"><br>
-        <input onclick="geral(4)" id="numero_4" type="button" value="4">
-        <input onclick="geral(5)" id="numero_5" type="button" value="5">
-        <input onclick="geral(6)" id="numero_6" type="button" value="6"><br>
-        <input onclick="geral(7)" id="numero_7" type="button" value="7">
-        <input onclick="geral(8)" id="numero_8" type="button" value="8">
-        <input onclick="geral(9)" id="numero_9" type="button" value="9"><br>
-        <input onclick="geral(0)" id="numero_0" type="button" value="0">
-        <input onclick="geral(',')" id="numero_virgula" type="button" value=",">
+        <input class="botao" onclick="geral(1)" id="numero_1" type="button" value="1">
+        <input class="botao" onclick="geral(2)" id="numero_2" type="button" value="2">
+        <input class="botao" onclick="geral(3)" id="numero_3" type="button" value="3"><br>
+        <input class="botao" onclick="geral(4)" id="numero_4" type="button" value="4">
+        <input class="botao" onclick="geral(5)" id="numero_5" type="button" value="5">
+        <input class="botao" onclick="geral(6)" id="numero_6" type="button" value="6"><br>
+        <input class="botao" onclick="geral(7)" id="numero_7" type="button" value="7">
+        <input class="botao" onclick="geral(8)" id="numero_8" type="button" value="8">
+        <input class="botao" onclick="geral(9)" id="numero_9" type="button" value="9"><br>
+        <input class="botao" onclick="geral(0)" id="numero_0" type="button" value="0">
+        <input onclick="geral(',')" id="numero_virgula" type="button" value=","><br>
+      
+
 
         <div class="calculos">
             <input onclick="geral('+')" id="operacao_soma" type="button" value="+">
@@ -35,20 +37,22 @@
             <input onclick="geral('*')" id="operacao_multiplicacao" type="button" value="*">
             <input onclick="geral('(')" id="abre" type="button" value="(">
             <input onclick="geral(')')" id="abre" type="button" value=")">
+            <input onclick="geral('apaga')" id="apaga" type="button" value="Apaga...">
             
         </div>
 
         
 
         <div class="valores">
-            <label for="expressaosoma">Expressão Soma:</label>
-            <input type="text" name="expressaocalculo" id="expressaocalcular">
-            <input type="submit" value="Calcular"><br> <p></p>
+            <label for="expressaosoma" id="expressaoescrita">Expressão Soma:</label>
+            <div class="mostraexpressao"><p id="demo">expresão digitada</p></div>
+            <input onclick="calcula('expressao')" id="calcula" type="button" value="calcular">
         </div>
 
-        <div><p id="informacao"></p></div>
-        <div><p id="resultado"></p></div>
-        <div><p id="clicktecladotelaexemplo"></p></div>
+        <div><p id="informacao"></p>...informacao</div>
+        <div><p id="resultado"></p>...resultado</div>
+        <div><p id="clicktecladotelaexemplo">...clicado</p></div>
+
     </div>
 
 

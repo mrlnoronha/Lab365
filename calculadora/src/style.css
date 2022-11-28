@@ -1,0 +1,35 @@
+body{
+    background-color: black;  
+    color:green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div{
+    background-color:rgb(36, 22, 2);
+    font-size:1cm
+}
+
+input{
+    background-color: rgb(56, 47, 4);
+    color:aliceblue;
+    size:100pt;
+    font-size: 1cm;
+    border-color: blue;
+}
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1cm;
+}
+#caixa{
+    font-size: xx-large;
+}
+input.botao{
+    border-color: green;
+    border-radius: 10px;
+}
+
+div.mostraexpressao{
+    background-color: bisque;
+}
