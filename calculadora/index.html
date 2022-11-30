@@ -9,60 +9,39 @@
 </head>
 <body>
 
-    <!--
-        OK Primeiro desafio - aparecer no campo de "expressão soma" o que estou digitando no teclado
-        Segundo desafio - digitar no botões e aparecer no campo "expresso soma"
-    -->
+        <div class="caixa">
+            <h1>Calculadora</h1>
+            <div>
+                <button type="button" onclick="clica('7')">7</button>
+                <button type="button" onclick="clica('8')">8</button>
+                <button type="button" onclick="clica('9')">9</button><br>
+                <button type="button" onclick="clica('4')">4</button>
+                <button type="button" onclick="clica('5')">5</button>
+                <button type="button" onclick="clica('6')">6</button><br>
+                <button type="button" onclick="clica('1')">1</button>
+                <button type="button" onclick="clica('2')">2</button>
+                <button type="button" onclick="clica('3')">3</button><br>
+                <button type="button" onclick="clica('0')">0</button>
+                <button type="button" onclick="clica(',')">,</button><br>
+                <button type="button" onclick="clica('+')">+</button>
+                <button type="button" onclick="clica('-')">-</button>
+                <button type="button" onclick="clica('*')">*</button>
+                <button type="button" onclick="clica('/')">/</button>
+                <button type="button" onclick="clica('(')">(</button>
+                <button type="button" onclick="clica(')')">)</button><br>
+            </div>
+            <div class="resultado">
+                <p id="expressao">..resultado da expressão</p>                
+            </div>
+            <br>
 
-    <div class="caixa">
-        <h1>Calculadora</h1>
-        <input class="botao" onclick="geral(1)" id="numero_1" type="button" value="1">
-        <input class="botao" onclick="geral(2)" id="numero_2" type="button" value="2">
-        <input class="botao" onclick="geral(3)" id="numero_3" type="button" value="3"><br>
-        <input class="botao" onclick="geral(4)" id="numero_4" type="button" value="4">
-        <input class="botao" onclick="geral(5)" id="numero_5" type="button" value="5">
-        <input class="botao" onclick="geral(6)" id="numero_6" type="button" value="6"><br>
-        <input class="botao" onclick="geral(7)" id="numero_7" type="button" value="7">
-        <input class="botao" onclick="geral(8)" id="numero_8" type="button" value="8">
-        <input class="botao" onclick="geral(9)" id="numero_9" type="button" value="9"><br>
-        <input class="botao" onclick="geral(0)" id="numero_0" type="button" value="0">
-        <input class="botao" onclick="geral(',')" id="numero_virgula" type="button" value=","><br>
-      
 
-
-        <div class="calculos">
-            <input onclick="geral('+')" id="operacao_soma" type="button" value="+">
-            <input onclick="geral('-')" id="operacao_subtracao" type="button" value="-">
-            <input onclick="geral('/')" id="operacao_divisao" type="button" value="/">
-            <input onclick="geral('*')" id="operacao_multiplicacao" type="button" value="*">
-            <input onclick="geral('(')" id="abre" type="button" value="(">
-            <input onclick="geral(')')" id="abre" type="button" value=")">
-            <input onclick="geral('apaga')" id="apaga" type="button" value="Apaga...">
             
         </div>
 
-        
-
-        <div class="valores">
-            <label for="expressaosoma" id="expressaoescrita">Expressão Soma:</label>
-            <div class="mostraexpressao"><p id="demo">expresão digitada</p></div>
-            <input onclick="calcula('expressao')" id="calcula" type="button" value="calcular">
-        </div>
-
-    </div>
 
 
-
-    </div>
-
-    <br> <br> <br>
-
-
-    </div>
-    <div class="resultado">
-
-    </div>
-
+    <br>
 
 
     <script src="src/javascript.js"></script>

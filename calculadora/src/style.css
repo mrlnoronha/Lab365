@@ -1,35 +1,37 @@
 body{
-    background-color: black;  
-    color:green;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-div{
-    background-color:rgb(36, 22, 2);
-    font-size:1cm
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 1cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;    
 }
 
 input{
-    background-color: rgb(56, 47, 4);
-    color:aliceblue;
-    size:100pt;
+    background-color:rgb(20, 52, 73);
+    color: rgb(223, 223, 230);
     font-size: 1cm;
-    border-color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;   
+
+}
+div.caixa{
+    background-color:darkslategray;
+    width: 45%;
+    align-content: center;
+    border-radius: 20px;
+    margin: 5%;
 }
 button{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:1cm;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1cm;
+    border-radius: 5px;
+    margin: 10px;   
 }
-#caixa{
-    font-size: xx-large;
-}
-input.botao{
-    border-color: green;
-    border-radius: 10px;
-}
-
-div.mostraexpressao{
-    background-color: bisque;
+div.resultado{
+    background-color: black;
+    color: aliceblue;
+    font-size: 1cm;
+    border-radius: 5px;
+    margin: 10px;  
 }
