@@ -9,15 +9,39 @@
 </head>
 <body>
 
-    <div>
-        <div>1</div><div>2</div><div>3</div>
-        <div>4</div><div>5</div><div>6</div>
-        <div>7</div><div>8</div><div>9</div>
-        <div>0</div><div>,</div><div>+</div>
-        <div>-</div><div>/</div><div>*</div>
-        <div>**</div><div>=</div>
-    </div>
+        <div class="caixa">
+            <h1>Calculadora</h1>
+            <div>
+                <button type="button" onclick="clica('7')">7</button>
+                <button type="button" onclick="clica('8')">8</button>
+                <button type="button" onclick="clica('9')">9</button><br>
+                <button type="button" onclick="clica('4')">4</button>
+                <button type="button" onclick="clica('5')">5</button>
+                <button type="button" onclick="clica('6')">6</button><br>
+                <button type="button" onclick="clica('1')">1</button>
+                <button type="button" onclick="clica('2')">2</button>
+                <button type="button" onclick="clica('3')">3</button><br>
+                <button type="button" onclick="clica('0')">0</button>
+                <button type="button" onclick="clica(',')">,</button><br>
+                <button type="button" onclick="clica('+')">+</button>
+                <button type="button" onclick="clica('-')">-</button>
+                <button type="button" onclick="clica('*')">*</button>
+                <button type="button" onclick="clica('/')">/</button>
+                <button type="button" onclick="clica('(')">(</button>
+                <button type="button" onclick="clica(')')">)</button><br>
+            </div>
+            <div class="resultado">
+                <p id="expressao">..resultado da expressão</p>                
+            </div>
+            <br>
 
+
+            
+        </div>
+
+
+
+    <br>
 
 
     <script src="src/javascript.js"></script>
